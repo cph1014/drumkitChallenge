@@ -1,0 +1,97 @@
+body {
+	background: #282828;
+}
+
+.set {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+    height: 300px;
+}
+
+.title {
+    font-size: 50px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 40%;
+    color:blanchedalmond;
+    font-family:'Kirang Haerang', cursive;
+}
+
+button {
+    font-size: x-large;
+    width: 10%;
+    height: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:radial-gradient(#e18174, #d15746);
+	margin: 10px;
+	flex: 1 0 calc(5% - 5px);
+	border-radius: 1rem;
+    font-family:'Kirang Haerang', cursive;
+}
+
+button:hover {
+	background:#FFB6C1;
+    color:white;
+}
+
+.icon {
+    padding-left: 10%;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+}
+
+img {
+    margin:20px;
+}
+
+#clap {
+    transition: transform.2s;
+}
+
+#clap:active {
+     transform: scale(1.2);
+}
+
+#close {
+    transition: transform.2s;
+}
+
+#close:active {
+     transform: scale(1.2);
+}
+
+#crash {
+    transition: transform.2s;
+}
+
+#crash:active {
+     transform: scale(1.2);
+}
+
+#kick {
+    transition: transform.2s;
+}
+
+#kick:active {
+     transform: scale(1.2);
+}
+
+#open {
+    transition: transform.2s;
+}
+
+#open:active {
+     transform: scale(1.2);
+}
+
+#snare {
+    transition: transform.2s;
+}
+
+#snare:active {
+     transform: scale(1.2);
+}
